@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 from django.contrib.auth.models import User
-from listings.models import Listing, Booking, Review
+from alx_travel_app.listings.models import Listing, Booking, Review
 from decimal import Decimal
 from datetime import datetime, timedelta
 import random
